@@ -1,0 +1,63 @@
+h1 {
+	color: black;
+	text-align: center;
+	border-style: double;
+	border-color: red;
+	margin-left: 10cm;
+	margin-right: 10cm;
+}
+h2 {
+	text-decoration:underline;
+}
+.debut {
+	font-weight: bold;
+	padding-left: 1cm;
+	padding-right: 1cm;
+}
+p {
+	padding-right:1cm;
+}
+body {
+	background-image: url("images/jeu vidéo.jpg");
+	background-repeat: repeat;
+}
+.corps {
+	background-color: #b3b3b3;
+	margin-left: 3cm;
+	margin-right: 3cm;
+	padding-bottom: 1cm;
+	
+}
+a {
+	color: black;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+	display: block;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  margin-top: 1cm;
+}
+figcaption {
+	text-align:center;
+}
+.barre {
+	background-color:#b3b3b3;
+	text-align:left;
+	margin-left: 3cm;
+	margin-right: 3cm;
+	padding-bottom: 0.25cm;
+	padding-top: 0.25cm;
+	margin-bottom:0.5cm;
+}
+.inscrit {
+	margin-left:10px;
+}
+form {
+	text-align:center;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>
+			Les jeux vidéos
+		</title>
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body>
+		<div class="corps">
+			<form>
+				<p>
+					<fieldset>
+						<legend>Etat civil</legend>
+						
+						<label for="name">Nom :</label>
+						<input type="text" id="name" name="user_name">
+						
+						<label for="mail">Prénom :</label>
+						<input type="text" id="prenom" name="user_prenom">
+						
+						Sexe :
+						
+							<input type="radio" name="sexe">
+							<label for="sexe">Garçon</label>
+							
+							<input type="radio" name="sexe" checked>
+							<label for="sexe">Fille</label>
+							
+							<input type="radio" name="sexe">
+							<label for="sexe">Autre</label>
+						
+						</br><label for="date_nais">&nbsp;&nbsp;Date de naissance :</label>
+						<input type="date" name="date_nais"><br/><br/>
+						
+					</fieldset><br/><br/><br/>
+					<fieldset>
+						<legend>Coordonnées</legend>
+						
+							<label for="mail">e-mail :</label>
+							<input type="email" id="mail" name="user_mail">
+							
+							<label for="nt">Numéro de téléphone :</label>
+							<input type="text" size="7" name="nt" maxlength="10">
+							
+					</fieldset><br/><br/><br/>
+					<fieldset>
+						<legend>Validation</legend>
+						
+						<label for="mdp">Mot de passe :</label>
+						<input type="password" name="mdp">
+						<input type="submit" name="val" value="Valider">
+						<input type="reset" name="ann" value="Annuler">
+					</fieldset><br/><br/><br/>
+				</p>
+			</form>
+		</div>
+	</body>
+</html>
