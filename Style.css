@@ -71,8 +71,8 @@ form {
 	margin-top:10px;
 }
 #img {
-	weight: auto;
-	witdh: auto;
+	max-weight: 1200;
+	max-witdh: 628;
 	display: block;
   margin-left: auto;
   margin-right: auto;
