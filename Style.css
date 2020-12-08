@@ -71,6 +71,8 @@ form {
 	margin-top:10px;
 }
 #img {
+	weight: auto;
+	witdh: auto;
 	display: block;
   margin-left: auto;
   margin-right: auto;
