@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>
+			The vidéos games
+		</title>
+		<link rel="stylesheet" href="Style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="corps">
+			<form>
+				<p>
+					<fieldset>
+						<legend>Civil status</legend>
+						
+						<label for="name">Last Name :</label>
+						<input type="text" id="name" name="user_name">
+						
+						<label for="prenom">First Name :</label>
+						<input type="text" id="prenom" name="user_prenom">
+						
+						<label for="surnom">Nickname :</label>
+						<input type="text" id="surnom" name="user_surnom">
+						
+						Sex :
+						
+							<input type="radio" name="sexe">
+							<label for="sexe">Boy</label>
+							
+							<input type="radio" name="sexe">
+							<label for="sexe">Girl</label>
+							
+							<input type="radio" name="sexe">
+							<label for="sexe">Other</label>
+						
+						</br><label for="date_nais">&nbsp;&nbsp;Birthday :</label>
+						<input type="date" name="date_nais"><br/><br/>
+						
+					</fieldset><br/><br/><br/>
+					<fieldset>
+						<legend>Ccontact information</legend>
+						
+							<label for="mail">e-mail :</label>
+							<input type="email" id="mail" name="user_mail">
+							
+							<label for="nt">Phone number :</label>
+							<input type="text" size="7" name="nt" maxlength="10">
+							
+					</fieldset><br/><br/><br/>
+					<fieldset>
+						<legend>Validation</legend>
+						
+						<label for="identifiant">Username:</label>
+						<input type="text" id="identifiant" name="user_indentifiant">
+						
+						<label for="mdp">Password :</label>
+						<input type="password" name="mdp">
+						<input type="button" value="Valider" onclick="val_anglais()">
+						<input type="reset" name="ann" value="Annuler">
+					</fieldset><br/><br/><br/>
+				</p>
+			</form>
+			<img src="images/form.png" id="img"/>
+		</div>
+	</body>
+</html>
